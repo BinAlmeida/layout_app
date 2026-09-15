@@ -82,9 +82,9 @@ Adicionar uma nova seção chamada "Últimos Registros" no final da tela.
 
 Foi criado um Container contendo uma Row.
 A Row possui:
-um ícone de lista;
-o texto "Últimos Registros";
-um botão "Ver todos".
+- `um ícone de lista;`
+- `o texto "Últimos Registros";`
+-`um botão "Ver todos".`
 Para distribuir os elementos nas extremidades da linha foi utilizada:
 mainAxisAlignment: MainAxisAlignment.spaceBetween
 
@@ -122,8 +122,8 @@ color: Colors.green
 ### Resultado
 
 O Card de Destaque passou a possuir dois selos:
-Raro, no canto superior direito;
-Confirmado, no canto inferior esquerdo.
+- `Raro, no canto superior direito;`
+- `Confirmado, no canto inferior esquerdo.`
 Foi utilizado o Stack junto com Positioned para realizar a sobreposição dos elementos.
 
 ## Exercício 06 — V.0.0.6
@@ -159,10 +159,10 @@ BlocoEstatistica
 Foi criado o arquivo:
 lib/widgets/bloco_estatistica.dart
 O widget passou a receber os dados de cada estatística por parâmetros, como:
-icone
-quantidade
-legenda
-cor
+- `icone`
+- `quantidade`
+- `legenda`
+- `cor`
 No main.dart, o widget passou a ser utilizado desta forma:
 BlocoEstatistica(
   icone: Icons.camera_alt,
@@ -195,25 +195,25 @@ shrinkWrap: true,
 physics: const NeverScrollableScrollPhysics(),
 Os quatro cards passaram a utilizar o widget personalizado BlocoEstatistica.
 As estatísticas apresentadas são:
-124 — Aves Vistas
-18 — Locais Visitados
-45 — Fotos
-32 — Registros
+- `124 — Aves Vistas`
+- `18 — Locais Visitados`
+- `45 — Fotos`
+- `32 — Registros`
 
 ### Resultado
 Os quatro cards passaram a ser exibidos em uma grade de 2 colunas por 2 linhas, deixando o layout mais organizado e substituindo a estrutura anterior de Row e Expanded.
 
 ## Histórico de Versões
-Versão	Exercício	Alteração principal
-V.0.0	Base	Dashboard inicial com estatísticas e destaque
-V.0.0.1	Exercício 01	Adição do terceiro card de estatística
-V.0.0.2	Exercício 02	crossAxisAlignment.center na Column principal
-V.0.0.3	Exercício 03	Nova seção "Últimos Registros"
-V.0.0.4	Exercício 04	Teste de overflow proposital
-V.0.0.5	Exercício 05	Segundo selo "Confirmado" usando Stack
-V.0.0.6	Exercício 06	Utilização de Card com elevation: 4
-V.0.0.7	Exercício 07	Criação do widget BlocoEstatistica
-V.0.0.8	Exercício 08	GridView.count com grade 2x2
+- `Versão	Exercício	Alteração principal`
+- `V.0.0	Base	Dashboard inicial com estatísticas e destaque`
+- `V.0.0.1	Exercício 01	Adição do terceiro card de estatística`
+- `V.0.0.2	Exercício 02	crossAxisAlignment.center na Column principal`
+- `V.0.0.3	Exercício 03	Nova seção "Últimos Registros"`
+- `V.0.0.4	Exercício 04	Teste de overflow proposital`
+- `V.0.0.5	Exercício 05	Segundo selo "Confirmado" usando Stack`
+- `V.0.0.6	Exercício 06	Utilização de Card com elevation: 4`
+- `V.0.0.7	Exercício 07	Criação do widget BlocoEstatistica`
+- `V.0.0.8	Exercício 08	GridView.count com grade 2x2`
 
 ### Estrutura Final do Projeto
 lib/
@@ -222,7 +222,7 @@ lib/
     └── bloco_estatistica.dart
 
 ### Tecnologias Utilizadas
-Flutter
-Dart
-Git
-GitHub
+- `Flutter`
+- `Dart`
+- `Git`
+- `GitHub`
